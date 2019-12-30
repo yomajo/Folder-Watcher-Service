@@ -30,16 +30,20 @@ Save changes
 *All of the commands below, should be in command line* 
 
 To install service, in command line (in `RenameFolderService.py` directory, or absolute path to it):
+
 `python RenameFolderService.py install`
 
 
 If later, you want to change path, after changing the hardcoded path, update service in command line:
+
 `python RenameFolderService.py update`
 
 To delete a service in:
+
 `sc delete "RenameFolderService"`
 
 Check service status:
+
 `sc query "RenameFolderService"`
 
 ### Common 1053 Windows Permissions error
